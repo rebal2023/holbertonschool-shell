@@ -1,3 +1,2 @@
 #!/bin/bash
-EFFECTIVE_USERNAME=$(whoami)
-echo "Effective username: $EFFECTIVE_USERNAME"
+echo "${USER}"
