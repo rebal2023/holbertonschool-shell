@@ -1,2 +1,2 @@
 #!/bin/bash
-set -f; compgen -v
+set -f | sort -u
